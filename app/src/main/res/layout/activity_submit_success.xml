@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mii.laylasm.daysix.SubmitSuccess">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/gradient_background"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/shape_background">
+
+            <TextView
+                android:id="@+id/textView"
+                style="@style/Base.TextAppearance.AppCompat.Medium"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/submit_success" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="150sp">
+
+            <Button
+                android:id="@+id/btnSubmitToLogin"
+                style="@style/Base.TextAppearance.AppCompat.Medium"
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="40dp"
+                android:background="#FF039BE5"
+                android:text="OK"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

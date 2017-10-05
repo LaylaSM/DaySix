@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mii.laylasm.daysix.SubmitAccess">
+
+    <LinearLayout
+        android:background="@drawable/gradient_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/txtWelcome"
+                    style="@style/TextAppearance.AppCompat.Medium"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="Welcome to M1"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+
+                <TextView
+                    android:id="@+id/txtPlsSetAccessCode"
+                    style="@style/TextAppearance.AppCompat.Medium"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Please set your access code"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/shape_background"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/EdtAccessCode"
+                    android:layout_width="200sp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:hint="Access Code"
+                    android:padding="20sp"
+                    android:textSize="14sp"
+                    android:inputType="numberPassword"/>
+
+                <EditText
+                    android:id="@+id/EdtAccessCodeConfirm"
+                    android:layout_width="200sp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:hint="Confirm access code"
+                    android:padding="20sp"
+                    android:textSize="14sp"
+                    android:inputType="numberPassword"/>
+
+                <Button
+                    android:id="@+id/btnSubmit"
+                    android:layout_width="200sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#FF039BE5"
+                    android:text="submit"
+                    android:textSize="14sp"
+                    style="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

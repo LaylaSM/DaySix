@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DaySix</string>
+    <string name="failed_access">Sorry, your data can\'t be verified. Please check again.</string>
+    <string name="submit_success">Welcome to M1.
+Your verification successful.
+</string>
+</resources>
